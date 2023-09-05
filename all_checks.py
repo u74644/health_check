@@ -6,6 +6,10 @@ import sys
 def check_reboot():
     return os.path.exists("run/reboot-required")
 
+def new_function():
+	return("done")
+
+
 def main():
     if check_reboot():
         print("System Pending reboot.")
@@ -14,4 +18,5 @@ def main():
         print("all good.")
         exit(0)
 main()
+new_function()
 
