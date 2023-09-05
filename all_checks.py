@@ -8,7 +8,7 @@ def check_reboot():
 
 def main():
     if check_reboot():
-        print("Pendig reboot.")
+        print("Pending reboot.")
         sys.exit(1)
     else:
         print("all good.")
