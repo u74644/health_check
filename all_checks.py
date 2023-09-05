@@ -11,12 +11,13 @@ def new_function():
 
 
 def main():
-    if check_reboot():
-        print("System Pending reboot.")
-        sys.exit(1)
-    else:
-        print("all good.")
-        exit(0)
+	new_function()
+	if check_reboot():
+		print("System Pending reboot.")
+		sys.exit(1)
+	else:
+		print("all good.")
+		exit(0)
 main()
 new_function()
 
