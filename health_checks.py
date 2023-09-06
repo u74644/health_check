@@ -7,7 +7,7 @@ def check_reboot():
     return os.path.exists("run/reboot-required")
 
 def new_function():
-	return("done")
+	return("Done")
 
 
 def main():
